@@ -72,7 +72,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/images/hero-dark.jpg');
+    background-image: url('images/hero-dark.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
