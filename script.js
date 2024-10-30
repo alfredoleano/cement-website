@@ -17,4 +17,5 @@ phoneButton.addEventListener('click', () => {
 
 emailButton.addEventListener('click', () => {
     window.location.href = `mailto:${emailAddress}?subject=Inquiry&body=Hello, I would like to...`;
+    // Comment
 });
