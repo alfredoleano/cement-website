@@ -83,7 +83,8 @@ h3 {
     color: #fff;
     font-size: 28px;
     text-align: center;
-    width: 30%;
+    /* width: 40%; */
+    width: 420px;
 }
 
 .hero-content h1 {
@@ -184,6 +185,7 @@ h3 {
 
 .work img {
     width: auto;
+    max-width: 50%;
     height: 325px;
 }
 
@@ -244,7 +246,7 @@ h3 {
 }
 
 /************ Mobile View Styles ************/
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     h2 {
         font-size: 28px;
     }
@@ -290,11 +292,17 @@ h3 {
         padding: 25px 20px;
         margin: 0;
         background-color: #000;
+    }
+
+    .nav a {
         color: #fff;
     }
 
     .nav-links li:hover {
         background-color: #fff;
+    }
+
+    .nav-links li:hover a{
         color: #000;
     }
 
@@ -343,6 +351,7 @@ h3 {
     
     .work img {
         width: 85%;
+        max-width: none;
         height: auto;
     }
     
@@ -364,5 +373,12 @@ h3 {
         /* background-color: #9c2b2b; */
         width: fit-content;
         margin: 30px auto;
+    }
+}
+
+/* Make the tag line smaller for really small phones */
+@media (max-width: 330px) {
+    h1 {
+        font-size: 34px;
     }
 }
