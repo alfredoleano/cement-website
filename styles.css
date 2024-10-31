@@ -228,7 +228,15 @@ h3 {
 
 .icon {
     text-align: center; 
+}
+
+.icon a {
+    text-decoration: none; /* To change icons to black in safari mobile browsers */
     color: #000;
+}
+
+i {
+    color: #000; /* To change icons to black in safari mobile browsers */
 }
 
 .icon h3 {
@@ -238,6 +246,7 @@ h3 {
 
 .icon button {
     background-color: #fff;
+    color: #000;
     border: none;
     border-radius: 50%;
     font-size: 20px;
