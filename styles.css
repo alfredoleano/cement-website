@@ -228,6 +228,12 @@ h3 {
 
 .icon {
     text-align: center; 
+    color: #000;
+}
+
+.icon h3 {
+    text-decoration: none;
+    color: #fff;
 }
 
 .icon button {
